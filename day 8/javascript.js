@@ -19,7 +19,7 @@ async function getData() {
       const result = document.getElementById("result");
       result.innerHTML += `<li>${json[i].title}}</li>`
    }
-   console.log(json)
+   console.log("this")
 }
 
 getData()
